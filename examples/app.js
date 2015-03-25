@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#box").click(function() {
+    $("#box").on("click", function(){
 		fadeoutDivs("#box")
 	});
 });
